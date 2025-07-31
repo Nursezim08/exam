@@ -17,7 +17,12 @@
 .header-r {
     position: relative;
 }
-
+.hr {
+  width: 1440px;
+  color: #ccc;
+  margin: 10px auto;
+  margin-bottom: 50px;
+}
 .number {
     width: 21px;
     height: 21px;
