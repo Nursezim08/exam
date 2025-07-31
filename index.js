@@ -18,9 +18,9 @@ function showProducts(list) {
       <div class="card">
         <img src="${item.thumbnail}" alt="${item.title}">
         <button class="add-to-cart">ADD TO CART</button>
-        <div class="category">${item.category}</div>
-        <div class="title">${item.title}</div>
-        <div class="price">$${item.price}</div>
+        <p class="category">${item.brand}</p>
+        <p class="title">${item.category}</p>
+        <p class="price">$${item.price}</p>
       </div>
     `
   }).join("");
